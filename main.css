@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo{
+    float:left;
+}
+    
+ul{
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+   background-color: white;
+    
+    
+    /* top: 0px;  */
+   /* width: 100px; */
+  
+}
+
+.navbar{
+    /* position: fixed; */
+}
+
+.navbar ul{
+   /* display: inline-block;  */
+  text-align: right;  
+  padding: 20px 20px 20px 10px;
+  
+  
+  color: red; 
+}
+
+.navbar li{
+    display: inline;
+    font-size: 18px;
+}
+
+ul li a{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    
+}
+
+
+ul li a.active {
+    background-color: red;
+    color: white;
+}
+
+a{
+    /* color: red; */
+    padding: 8px;
+   
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.contact container{
+    text-align: center;
+    margin-left: 300px;
+}
+
+.page-header{
+    text-align: center;
+    color: white;
+    font-size:25px;
+    background-color: red;
+    /* top: 0px; */
+    padding: 10px 20px;
+    
+}
+
+.jumbotron{
+   
+}
+
+.img-circle p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding:20px;
+    background-color:red;
+    color:white;
+    width:100%;
+}
